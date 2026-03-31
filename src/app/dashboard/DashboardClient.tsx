@@ -4,7 +4,7 @@ import { signOut } from "next-auth/react";
 import { Navbar } from "@/components/Navbar";
 
 interface User {
-  id: string;
+  id?: string;
   name?: string | null;
   email?: string | null;
   image?: string | null;
